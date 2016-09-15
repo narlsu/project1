@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'Futura';
+	src: url('../fonts/Futura_ICG.ttf')
+	font-weight: normal;
+	font 
+
+}
+* {
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+
+}
+h1 {
+	font-family: 'futura', sans-serif;
+}
+#logo {
+	margin-top: 10px;
+	width: 300px;
+	display: inline-block;
+}
+nav ul, nav a{
+	display: inline-block;
+
+}
+nav a {
+	margin-right: 20px;
+	font-family: 'Futura', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+ul {
+	line-height: 50px;
+
+}
+header {
+	height: 100px;
+	width: 100%;
+	background-color: white;
+
+}
+#bgImage {
+	height: 600px;
+	width: 100%;
+	background-image: url("../images/Mountain.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: contain;
+}
